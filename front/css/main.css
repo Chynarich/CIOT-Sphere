@@ -1,0 +1,55 @@
+@import url(./var.css);
+@import url(./normalize.css);
+@import url(./root.css);
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #f5f7fb;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+a {
+  color: #000;
+}
+/* ------------- header ------------- */
+.header {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+.header__menu {
+  display: flex;
+
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+.header__item {
+  color: #989999;
+  flex: 1 1 auto;
+  margin: 0 10px;
+  transition: all 0.5s;
+}
+.header__menu :hover {
+  transform: scale(1.1);
+  color: #e6ad88;
+}
+.header__cart {
+  margin-left: auto;
+  padding: 20px 40px;
+  color: #fff;
+  border-radius: 20px;
+  background-color: #e6ad88;
+  border: 1px #e6ad88 solid;
+  transition: all 0.3s;
+}
+.header__cart:hover {
+  background-color: transparent;
+  color: #e6ad88;
+}
