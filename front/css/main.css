@@ -53,3 +53,197 @@ a {
   background-color: transparent;
   color: #e6ad88;
 }
+
+/* ------------- main-title ------------- */
+
+.main-title {
+  margin-top: 40px;
+  line-height: 4em;
+  text-align: center;
+}
+h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.main-title__subtitle {
+  width: 480px;
+  line-height: 1em;
+  margin-bottom: 40px;
+}
+.main-title__button {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #8d85ff;
+  padding: 13px 40px 15px;
+  border-radius: 35px;
+}
+.main-title__button:hover {
+  background-color: #8d85ff;
+  color: #ffffff;
+  transition: 0.5s;
+}
+.main-title__cards {
+  margin-top: 20px;
+  background: #8d85ffb9;
+  height: 250px;
+  width: auto;
+}
+
+/* ------------- categories ------------- */
+
+.categories {
+  margin-top: 60px;
+}
+.categories__static-block {
+  width: 180px;
+  margin-right: 25px;
+}
+.categories__title {
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: 1em;
+  margin-bottom: 10px;
+}
+.categories__buttons-block button {
+  border: 1px solid;
+  border-radius: 100%;
+  padding: 7px 11px;
+  margin-right: 7px;
+}
+.categories__buttons-block button i {
+  font-size: 13px;
+}
+.categories__dynamic-block {
+  background: #fff;
+  border-radius: 10px;
+  width: 200px;
+  height: 250px;
+}
+.categories__icon-label {
+  padding: 15px 0 0 15px;
+  width: 150px;
+}
+.categories__icon-label i {
+  color: #8d85ff;
+  background-color: #f2f1ff;
+  border-radius: 100%;
+  padding: 15px;
+  margin-right: 10px;
+}
+.categories__icon-label p {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.categories__dynamic-block-button {
+  margin-left: 25px;
+  margin-bottom: 15px;
+  width: 150px;
+  font-size: 12px;
+  margin-top: auto;
+  padding: 15px 0px;
+  color: #fff;
+  border-radius: 50px;
+  background-color: #e6ad88;
+  transition: all 0.3s;
+}
+.categories__dynamic-block-button:hover {
+  background-color: transparent;
+  color: #e6ad88;
+  border: solid #e6ad88 1px;
+}
+.categories__buttons-block button:hover {
+  border-color: #989999;
+  color: #989999;
+  transition: all 0.3s;
+}
+
+/* ------------- newbie ------------- */
+
+.newbie {
+  margin-top: 100px;
+  padding: 40px 0 40px 40px;
+  color: #fff;
+  background: #8d85ff;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgba(141, 133, 255, 1) 25%, rgba(97, 91, 175, 1) 100%);
+}
+.newbie__text-block {
+  width: 550px;
+}
+.newbie__title {
+  font-size: 30px;
+  width: 350px;
+  margin-bottom: 20px;
+}
+.newbie__subtitle {
+  margin-bottom: 30px;
+}
+.newbie__button {
+  width: 180px;
+  padding: 18px 0px;
+  border-radius: 50px;
+  background-color: #e6ad88;
+  border: 1px #e6ad88 solid;
+  transition: all 0.3s;
+}
+.newbie__button:hover {
+  background-color: transparent;
+}
+
+/* ------------- terms-of-delivery ------------- */
+
+.terms-of-delivery {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.terms-of-delivery__upper {
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #aaa;
+}
+h2 {
+  width: 120px;
+  font-size: 27px;
+}
+.terms-of-delivery__upper p {
+  width: 270px;
+}
+.terms-of-delivery__title-block {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.terms-of-delivery__title {
+  text-transform: uppercase;
+}
+.terms-of-delivery__title-block i {
+  color: #8d85ff;
+  font-size: 25px;
+  margin-right: 20px;
+}
+.terms-of-delivery__button-block {
+  justify-content: space-between;
+}
+.terms-of-delivery__label {
+  width: 290px;
+}
+.terms-of-delivery__telegram-button {
+  color: #fff;
+  background: #8d85ff;
+  border-radius: 40px;
+  padding: 8px 10px 10px 20px;
+  transition: all 0.3s;
+}
+.terms-of-delivery__telegram-button p {
+  margin-right: 30px;
+}
+.terms-of-delivery__telegram-button i {
+  color: #8d85ff;
+  background: #f2f1ffb9;
+  border-radius: 100%;
+  padding: 15px;
+}
+.terms-of-delivery__telegram-button:hover {
+  background: transparent;
+  color: #8d85ff;
+  border: solid 1px #8d85ff;
+}

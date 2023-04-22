@@ -44,3 +44,6 @@
   flex-wrap: wrap;
   align-content: space-between;
 }
+.d-flex {
+  display: flex;
+}
