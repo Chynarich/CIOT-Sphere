@@ -209,7 +209,7 @@ h2 {
   width: 270px;
 }
 .terms-of-delivery__title-block {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 .terms-of-delivery__title {
@@ -232,6 +232,7 @@ h2 {
   border-radius: 40px;
   padding: 8px 10px 10px 20px;
   transition: all 0.3s;
+  border: solid 1px #8d85ff;
 }
 .terms-of-delivery__telegram-button p {
   margin-right: 30px;
@@ -245,5 +246,244 @@ h2 {
 .terms-of-delivery__telegram-button:hover {
   background: transparent;
   color: #8d85ff;
-  border: solid 1px #8d85ff;
+}
+
+/* ------------- faq ------------- */
+
+.faq {
+  margin-bottom: 100px;
+  justify-content: space-between;
+}
+.faq__accordion {
+  width: 800px;
+}
+.faq__title {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.faq__floor-1 {
+  border-top: solid 1px #8d85ff;
+}
+.faq__floor {
+  padding-bottom: 20px;
+  padding-top: 5px;
+  border-bottom: solid 1px #8d85ff;
+}
+.faq__label {
+  display: flex;
+  justify-content: space-between;
+}
+.faq__block-name {
+  padding-top: 10px;
+  font-size: 20px;
+}
+.faq__i-bg {
+  color: #e6ad88;
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  padding: 5px;
+}
+.faq__floor input {
+  display: none;
+}
+.faq__body {
+  display: none;
+  color: #aaa;
+  margin-top: 10px;
+  width: 500px;
+  box-sizing: border-box;
+  transition: color 0.5s, padding 0.5s;
+  overflow: hidden;
+  font-size: 15px;
+}
+.faq__floor input:checked ~ .faq__label i {
+  transition: transform 0.35s;
+  transform: rotate(45deg);
+}
+.faq__floor input:checked ~ .faq__body {
+  transition: all 0.3s;
+  display: block;
+}
+
+/* ------------- reviews ------------- */
+
+.reviews {
+  margin-bottom: 100px;
+}
+.reviews__static-block {
+  width: 180px;
+  margin-right: 35px;
+}
+.reviews__title {
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: 1em;
+  margin-bottom: 10px;
+}
+.reviews__subtitle {
+  margin-bottom: 15px;
+}
+.reviews__buttons-block button {
+  border: 1px solid;
+  border-radius: 100%;
+  padding: 7px 11px;
+  margin-right: 7px;
+}
+.reviews__buttons-block button i {
+  font-size: 13px;
+}
+.reviews__buttons-block button:hover {
+  border-color: #989999;
+  color: #989999;
+  transition: all 0.3s;
+}
+.reviews__dynamic-block {
+  background: #fff;
+  border-radius: 10px;
+  width: 430px;
+  height: 230px;
+}
+.reviews__icon-label {
+  padding: 20px 0 0 20px;
+  width: 200px;
+}
+.reviews__icon-label div {
+  background-color: #f2f1ff;
+  border-radius: 100%;
+  padding: 20px;
+  margin-right: 15px;
+}
+.reviews__icon-label p {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.reviews__description {
+  margin: 20px;
+}
+
+/* ------------- question ------------- */
+
+.question {
+  margin-bottom: 50px;
+  background-color: #fff;
+  border-radius: 25px;
+  margin-bottom: -150px;
+}
+.question__relative {
+  position: relative;
+}
+.question__title-block {
+  justify-content: space-between;
+  padding: 30px 40px 0 40px;
+  margin-bottom: 50px;
+}
+.question__title {
+  color: #6964b3;
+  width: 400px;
+  font-size: 48px;
+  line-height: 0.8em;
+}
+.question__subtitle {
+  width: 260px;
+}
+.question__telegram-button {
+  color: #fff;
+  background: #e6ad88;
+  border-radius: 40px;
+  padding: 8px 10px 10px 20px;
+  transition: all 0.3s;
+  width: 250px;
+  margin-bottom: 100px;
+  border: solid 1px #e6ad88;
+}
+.question__telegram-button p {
+  margin-right: 30px;
+  width: 180px;
+}
+.question__telegram-button i {
+  color: #e6ad88;
+  background: #f2f1ffb9;
+  border-radius: 100%;
+  padding: 15px;
+}
+.question__telegram-button:hover {
+  background: transparent;
+  color: #e6ad88;
+}
+.question__image-block {
+}
+.question__photo-1 {
+  background-color: #8d85ff;
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 0;
+}
+.question__photo-2 {
+  background-color: #e6ad88;
+  width: auto;
+  height: 150px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+/* ------------- footer ------------- */
+
+#footer {
+  padding-top: 230px;
+  background-color: #343799;
+  padding-bottom: 30px;
+}
+.footer {
+  color: #d6d6d6;
+  font-size: 15px;
+  justify-content: space-between;
+}
+.footer__logo-block {
+  text-transform: uppercase;
+}
+.footer__logo {
+  color: #fff;
+  font-size: 35px;
+  padding-bottom: 5px;
+}
+.footer__subtitle {
+  font-size: 17px;
+  width: 250px;
+}
+.footer__menu-block li {
+  margin-bottom: 2px;
+}
+.footer__menu-block li a {
+  color: #d6d6d6;
+}
+.footer__menu-block li a:hover {
+  color: #8b8a8a;
+  transition: all 0.1s;
+}
+.footer__label {
+  color: #aaa;
+  margin-bottom: 5px;
+}
+.footer__social-network-icons i {
+  color: #e6ad88;
+  font-size: 15px;
+  background: #4649ac;
+  margin-right: 10px;
+  border-radius: 100%;
+  padding: 18px;
+}
+.footer__social-network-icons i:hover {
+  color: #4649ac;
+  background: #e6ad88;
+  transition: all 0.3s;
+}
+.footer__connect-element {
+  margin-bottom: 3px;
+}
+.footer__info p {
+  margin-bottom: 5px;
 }
